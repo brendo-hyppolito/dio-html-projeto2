@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1300px;
+
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+.menu {
+    position: relative;
+    width: 20%;
+    background-color: rgb(255, 138, 65);
+    padding: 10px 5px 0px;
+    min-width: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    table {
+        border-spacing: 0px 4px;
+        tr:hover td {
+            background-color:rgb(255, 120, 37);
+        }
+    }
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    font-size: larger;
+    font-weight: bold;
+}
+.menuImages {
+    position: absolute;
+    bottom: 0;
+}
+.header {
+    background-color: rgba(255, 138, 65, 0.9);
+    min-height: 150px;
+    min-width: 530px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    h1 {
+        font-weight: bolder;
+        font-size: 300%;
+    }
+    h2 {
+        font-style: italic;
+    }
+        }
+
+.content {
+    background-color: rgb(255, 138, 65, 0.7);
+    min-height: 300px;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer {
+    font-weight: 1900;
+    font-size: large;
+    position: relative;
+    background-color: rgb(255, 138, 65, 0.9);
+    min-height: 150px;
+    padding-top: 6px;
+    padding-left: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tabela_horario {
+    border-spacing: 8px 4px;
+    tr:nth-child(even) {
+        background-color: rgb(255, 138, 65, 0.5);
+    }
+    th {
+        border: solid 2px rgb(255, 138, 65, 1);
+    }
+    tr:hover td {
+        background-color: rgb(255, 138, 65, 1);
+    }
+}
